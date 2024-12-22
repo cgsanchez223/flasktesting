@@ -21,10 +21,10 @@ Creating a virtual enviornment:
 
 _______________________________________________
 To setup files:
-    - The following line must be at the top of any Python file
-        - from flask import Flask, request
-        - app = Flask(__name__)
-            - __name__ should be untouched and written exactly as is
+- The following line must be at the top of any Python file
+    - from flask import Flask, request
+    - app = Flask(__name__)
+        - __name__ should be untouched and written exactly as is
     - flask run
         - Will run the app.py file
         - If the file is not called app.py use:
@@ -33,18 +33,18 @@ To setup files:
 
 _______________________________________________
 Greet
-    - Contains a few route files to go to
-        - /welcome
-        - /welcome/home
-        - /welcome/back
-    - You can also do python3 -m unittest test.py to run the unit test
+- Contains a few route files to go to
+    - /welcome
+    - /welcome/home
+    - /welcome/back
+- You can also do python3 -m unittest test.py to run the unit test
 
 _______________________________________________
 Calc
-    - The routes for Calc are a bit more complicated because there is no landing page
-    - The program functions as a calculator. The operations are taken from operations.py and then imported into app.py
-    - /add is a route
-        - Nothing will come up with localhost:5000/add
-        - Instead you have to use:
-            - /add?a=10&b=20
-                - This will add 10 and 20 and the page will display the answer 30
+- The routes for Calc are a bit more complicated because there is no landing page
+- The program functions as a calculator. The operations are taken from operations.py and then imported into app.py
+- /add is a route
+    - Nothing will come up with localhost:5000/add
+    - Instead you have to use:
+        - /add?a=10&b=20
+            - This will add 10 and 20 and the page will display the answer 30
